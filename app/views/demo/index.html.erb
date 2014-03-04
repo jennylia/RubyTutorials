@@ -1,0 +1,19 @@
+<h1>Demo#index</h1>
+<p>Hello World! from index</p>
+
+<% @array.each do |n|%></br>
+	
+	<%= n %> <br />
+<%end%>s
+
+
+<a href = "/demo/hello"> hello page 1 </a>
+</br>
+<%= link_to('Hello page 2', {:action => 'hello'}) %>
+</br>
+<%= link_to('Hello with page parameters', {:action => 'hello', :page => 5, :id => 20}) %>
+
+
+<!-- <hr />
+
+<%= params.inspect %> -->
