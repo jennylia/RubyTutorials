@@ -1,6 +1,6 @@
 class DemoController < ApplicationController
   
-  layout false
+  layout 'application'
   
   
   
@@ -26,6 +26,13 @@ class DemoController < ApplicationController
 
   def data
   	redirect_to("http://pub.data.gov.bc.ca/datasets/174267/hlbc_walkinclinics.txt")
+  end
+
+  def text_helpers
+  end
+
+  def escape_output
+    
   end
 
   
